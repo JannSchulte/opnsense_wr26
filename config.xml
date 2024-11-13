@@ -725,7 +725,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   <revision>
     <username>root@192.168.79.99</username>
     <description>/api/firewall/alias/addItem/ made changes</description>
-    <time>1731509799.844</time>
+    <time>1731509902.8844</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -854,6 +854,18 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.79.10</content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="a406f6a0-b646-493d-a685-3d518327509e">
+            <enabled>1</enabled>
+            <name>jsvs_de</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>94.16.107.238</content>
             <categories/>
             <description/>
           </alias>
