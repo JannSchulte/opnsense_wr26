@@ -622,8 +622,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <description>/api/routing/settings/setGateway/WAN_DHCP6 made changes</description>
-    <time>1731509356.3904</time>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1731509692.0271</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -718,7 +718,20 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <geoip>
           <url/>
         </geoip>
-        <aliases/>
+        <aliases>
+          <alias uuid="682f3ba0-d9cf-4ce5-b6c8-d31c3143135e">
+            <enabled>1</enabled>
+            <name>x42_jsbe_de</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.79.99</content>
+            <categories/>
+            <description/>
+          </alias>
+        </aliases>
       </Alias>
       <Category version="1.0.0">
         <categories/>
