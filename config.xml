@@ -622,8 +622,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1731509243.5554</time>
+    <description>/api/routing/settings/setGateway/WAN_DHCP6 made changes</description>
+    <time>1731509356.3904</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1013,6 +1013,30 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <monitor/>
         <force_down/>
         <priority>255</priority>
+        <weight>1</weight>
+        <latencylow/>
+        <latencyhigh/>
+        <losslow/>
+        <losshigh/>
+        <interval/>
+        <time_period/>
+        <loss_interval/>
+        <data_length/>
+      </gateway_item>
+      <gateway_item uuid="b74e1846-8494-4930-91eb-2e55c055f41e">
+        <disabled>1</disabled>
+        <name>WAN_DHCP6</name>
+        <descr>Interface WAN_DHCP6 Gateway</descr>
+        <interface>wan</interface>
+        <ipprotocol>inet6</ipprotocol>
+        <gateway/>
+        <defaultgw>0</defaultgw>
+        <fargw>0</fargw>
+        <monitor_disable>1</monitor_disable>
+        <monitor_noroute>0</monitor_noroute>
+        <monitor/>
+        <force_down>0</force_down>
+        <priority>254</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
