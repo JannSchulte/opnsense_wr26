@@ -333,8 +333,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <item/>
       </numberoptions>
       <range>
-        <from>192.168.79.10</from>
-        <to>192.168.79.245</to>
+        <from>192.168.79.100</from>
+        <to>192.168.79.190</to>
       </range>
       <winsserver/>
       <dnsserver>192.168.79.2</dnsserver>
@@ -775,8 +775,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <time>1731509963.5788</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1731512853.4208</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
