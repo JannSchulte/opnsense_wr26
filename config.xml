@@ -724,8 +724,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <time>1731509760.7682</time>
-    <description>/firewall_nat_edit.php made changes</description>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1731509799.844</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -842,6 +842,18 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.79.42</content>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="4fd38d39-13dc-4234-8e85-3694efa71150">
+            <enabled>1</enabled>
+            <name>prox6000</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.79.10</content>
             <categories/>
             <description/>
           </alias>
