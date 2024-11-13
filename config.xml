@@ -622,8 +622,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <description>/api/firewall/alias/addItem/ made changes</description>
-    <time>1731509692.0271</time>
+    <description>/api/firewall/alias/setItem/682f3ba0-d9cf-4ce5-b6c8-d31c3143135e made changes</description>
+    <time>1731509700.2376</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -721,7 +721,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <aliases>
           <alias uuid="682f3ba0-d9cf-4ce5-b6c8-d31c3143135e">
             <enabled>1</enabled>
-            <name>x42_jsbe_de</name>
+            <name>x42</name>
             <type>host</type>
             <proto/>
             <interface/>
