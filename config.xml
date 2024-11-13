@@ -643,6 +643,36 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_6734beb52a1885.02711902</associated-rule-id>
+      <target>prox6000</target>
+      <local-port>8007</local-port>
+      <source>
+        <address>jsvs_de</address>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>8007</port>
+      </destination>
+      <updated>
+        <username>root@192.168.79.99</username>
+        <time>1731509941.1725</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.79.99</username>
+        <time>1731509941.1725</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </nat>
   <filter>
     <rule>
@@ -711,6 +741,27 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <associated-rule-id>nat_6734beb52a1885.02711902</associated-rule-id>
+      <source>
+        <address>jsvs_de</address>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>prox6000</address>
+        <port>8007</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@192.168.79.99</username>
+        <time>1731509941.1724</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -724,8 +775,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <description>/api/firewall/alias/addItem/ made changes</description>
-    <time>1731509902.8844</time>
+    <time>1731509941.2444</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
