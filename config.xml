@@ -253,7 +253,6 @@
       <keysig/>
       <rekeylimit/>
       <enabled>enabled</enabled>
-      <passwordauth>1</passwordauth>
       <permitrootlogin>1</permitrootlogin>
     </ssh>
     <rrdbackup>-1</rrdbackup>
@@ -788,7 +787,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <time>1731872742.6223</time>
+    <time>1731872751.5644</time>
     <description>/system_advanced_admin.php made changes</description>
   </revision>
   <OPNsense>
