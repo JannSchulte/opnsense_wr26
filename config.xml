@@ -788,7 +788,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   <revision>
     <username>root@192.168.79.99</username>
     <description>/api/unbound/settings/addHostOverride/ made changes</description>
-    <time>1731958932.7514</time>
+    <time>1731963357.1912</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1454,6 +1454,16 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
           <mxprio/>
           <mx/>
           <server>192.168.79.5</server>
+          <description/>
+        </host>
+        <host uuid="93e377db-f934-4ce8-8d30-1d932623afc1">
+          <enabled>1</enabled>
+          <hostname>hass</hostname>
+          <domain>jsbe.de</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>192.168.79.80</server>
           <description/>
         </host>
       </hosts>
