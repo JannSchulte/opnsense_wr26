@@ -788,7 +788,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   <revision>
     <username>root@192.168.79.99</username>
     <description>/api/unbound/settings/addHostOverride/ made changes</description>
-    <time>1731958926.4066</time>
+    <time>1731958932.7514</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1439,6 +1439,16 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <host uuid="f1e6eb7a-f369-4783-b2ed-97ca7542ed82">
           <enabled>1</enabled>
           <hostname>unifi</hostname>
+          <domain>jsbe.de</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>192.168.79.5</server>
+          <description/>
+        </host>
+        <host uuid="f7103cbb-034e-4e31-a5d2-f7ed6ee5fe7a">
+          <enabled>1</enabled>
+          <hostname>unify</hostname>
           <domain>jsbe.de</domain>
           <rr>A</rr>
           <mxprio/>
