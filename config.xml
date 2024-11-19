@@ -409,6 +409,15 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>74:5d:22:f7:ac:2d</mac>
+        <ipaddr>192.168.79.86</ipaddr>
+        <hostname>T14</hostname>
+        <descr>lan</descr>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>d4:e9:8a:26:f1:8d</mac>
         <ipaddr>192.168.79.97</ipaddr>
         <hostname>T14</hostname>
@@ -797,7 +806,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <time>1732007187.4005</time>
+    <time>1732007282.4844</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
