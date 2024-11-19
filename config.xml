@@ -409,6 +409,15 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>d4:e9:8a:26:f1:8d</mac>
+        <ipaddr>192.168.79.97</ipaddr>
+        <hostname>T14</hostname>
+        <descr>wlan</descr>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>00:26:73:82:9a:72</mac>
         <ipaddr>192.168.79.98</ipaddr>
         <hostname>BRW30C9AB80770A</hostname>
@@ -788,8 +797,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <time>1732007144.6111</time>
-    <description>/services_dhcp.php made changes</description>
+    <time>1732007187.4005</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
