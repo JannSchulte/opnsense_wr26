@@ -425,14 +425,6 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>74:5d:22:f7:ac:2d</mac>
-        <ipaddr>192.168.79.99</ipaddr>
-        <hostname>T14</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
         <mac>8c:f6:81:b7:06:a0</mac>
         <ipaddr>192.168.79.102</ipaddr>
         <hostname>shellytrv-8CF681B706A0</hostname>
@@ -592,6 +584,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
+      <pool/>
     </lan>
   </dhcpd>
   <snmpd>
@@ -795,8 +788,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <time>1732007130.2059</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <time>1732007144.6111</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
