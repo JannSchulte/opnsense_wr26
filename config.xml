@@ -409,14 +409,6 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>8c:f6:81:b7:06:a0</mac>
-        <ipaddr>192.168.79.95</ipaddr>
-        <hostname>shellytrv-8CF681B706A0</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
         <mac>74:5d:22:f7:ac:2d</mac>
         <ipaddr>192.168.79.96</ipaddr>
         <hostname>T14</hostname>
@@ -446,6 +438,14 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <mac>04:7c:16:f1:6f:ba</mac>
         <ipaddr>192.168.79.99</ipaddr>
         <hostname>X42</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
+        <mac>8c:f6:81:b7:06:a0</mac>
+        <ipaddr>192.168.79.102</ipaddr>
+        <hostname>shellytrv-8CF681B706A0</hostname>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -806,7 +806,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.42</username>
-    <time>1732460369.1849</time>
+    <time>1732460621.6073</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
