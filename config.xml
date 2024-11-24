@@ -805,9 +805,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.79.42</username>
-    <time>1732460621.6073</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1732480658.5778</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -882,7 +882,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <OpenVPNExport version="0.0.1">
       <servers/>
     </OpenVPNExport>
-    <OpenVPN version="1.0.0">
+    <OpenVPN version="1.0.1">
       <Overwrites/>
       <Instances/>
       <StaticKeys/>
