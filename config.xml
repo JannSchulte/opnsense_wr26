@@ -805,9 +805,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1732480658.5778</time>
+    <username>root@192.168.79.42</username>
+    <description>/api/unbound/settings/addHostOverride/ made changes</description>
+    <time>1734294581.0388</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1504,6 +1504,16 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
           <mx/>
           <server>192.168.79.96</server>
           <description>dummy for rdp profiles</description>
+        </host>
+        <host uuid="435b365e-5844-4609-9d60-31da44e39c2e">
+          <enabled>1</enabled>
+          <hostname>guac</hostname>
+          <domain>jsbe.de</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>192.168.79.70</server>
+          <description/>
         </host>
       </hosts>
       <aliases/>
