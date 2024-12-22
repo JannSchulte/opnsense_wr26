@@ -805,9 +805,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.79.42</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1734294796.3066</time>
+    <username>root@192.168.79.147</username>
+    <description>/api/routing/settings/setGateway/0f87358d-8fcd-4d85-9a01-22966cfbbff9 made changes</description>
+    <time>1734854626.266</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1240,11 +1240,11 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ipprotocol>inet</ipprotocol>
         <gateway/>
         <defaultgw>1</defaultgw>
-        <fargw/>
-        <monitor_disable>1</monitor_disable>
-        <monitor_noroute/>
-        <monitor/>
-        <force_down/>
+        <fargw>0</fargw>
+        <monitor_disable>0</monitor_disable>
+        <monitor_noroute>0</monitor_noroute>
+        <monitor>8.8.8.8</monitor>
+        <force_down>0</force_down>
         <priority>255</priority>
         <weight>1</weight>
         <latencylow/>
