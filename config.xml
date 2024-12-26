@@ -260,7 +260,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-qemu-guest-agent,os-wol</plugins>
+      <plugins>os-net-snmp,os-qemu-guest-agent,os-wol</plugins>
       <type/>
       <subscription/>
       <reboot/>
@@ -806,8 +806,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1735228219.7278</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1735228220.2916</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
