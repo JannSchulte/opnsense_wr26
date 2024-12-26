@@ -805,9 +805,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.79.147</username>
-    <description>/api/routing/settings/setGateway/0f87358d-8fcd-4d85-9a01-22966cfbbff9 made changes</description>
-    <time>1734854626.266</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1735228103.0468</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1030,12 +1030,13 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.1">
+      <dhcp4 version="1.0.2">
         <general>
           <enabled>0</enabled>
           <interfaces/>
           <valid_lifetime>4000</valid_lifetime>
           <fwrules>1</fwrules>
+          <dhcp_socket_type>raw</dhcp_socket_type>
         </general>
         <ha>
           <enabled>0</enabled>
@@ -1295,7 +1296,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.9">
+    <unboundplus version="1.0.11">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1517,7 +1518,6 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         </host>
       </hosts>
       <aliases/>
-      <domains/>
     </unboundplus>
     <trust>
       <general version="1.0.1">
