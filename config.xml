@@ -807,7 +807,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   <revision>
     <username>root@192.168.79.42</username>
     <description>/api/netsnmp/general/set made changes</description>
-    <time>1735228473.8879</time>
+    <time>1735229135.1883</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1578,7 +1578,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       </user>
       <general version="1.0.5">
         <enabled>1</enabled>
-        <community/>
+        <community>public</community>
         <syslocation/>
         <syscontact/>
         <l3visibility>0</l3visibility>
