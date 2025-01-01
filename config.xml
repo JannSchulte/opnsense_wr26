@@ -523,14 +523,6 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>84:2b:2b:08:fa:69</mac>
-        <ipaddr>192.168.79.182</ipaddr>
-        <hostname>DESKTOP-8N040VG</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
         <mac>54:bd:79:8d:0a:5b</mac>
         <ipaddr>192.168.79.201</ipaddr>
         <hostname>samsung</hostname>
@@ -806,8 +798,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.42</username>
-    <description>/api/netsnmp/general/set made changes</description>
-    <time>1735229135.1883</time>
+    <time>1735715902.8628</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
