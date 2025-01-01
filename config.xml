@@ -427,9 +427,57 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>8c:f6:81:b7:06:a0</mac>
-        <ipaddr>192.168.79.102</ipaddr>
-        <hostname>shellytrv-8CF681B706A0</hostname>
+        <mac>54:bd:79:8d:0a:5b</mac>
+        <ipaddr>192.168.79.201</ipaddr>
+        <hostname>samsung</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
+        <mac>00:04:20:fd:0d:f1</mac>
+        <ipaddr>192.168.79.202</ipaddr>
+        <hostname>HarmonyHub</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
+        <mac>28:f3:66:66:90:82</mac>
+        <ipaddr>192.168.79.203</ipaddr>
+        <hostname>IPCamera</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
+        <mac>b8:27:eb:5c:30:dc</mac>
+        <ipaddr>192.168.79.204</ipaddr>
+        <hostname>octopi</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
+        <mac>dc:a6:32:14:91:fa</mac>
+        <ipaddr>192.168.79.205</ipaddr>
+        <hostname>mini</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
+        <mac>28:39:5e:dc:41:f3</mac>
+        <ipaddr>192.168.79.206</ipaddr>
+        <hostname>Samsung-Wlan</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
+        <mac>34:64:a9:b7:02:00</mac>
+        <ipaddr>192.168.79.208</ipaddr>
+        <hostname>sw-keller</hostname>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -491,6 +539,14 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>b4:e3:f9:d9:b0:c7</mac>
+        <ipaddr>192.168.79.216</ipaddr>
+        <hostname>shellytrv-B4E3F9D9B0C7</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>e8:68:e7:f1:7e:a6</mac>
         <ipaddr>192.168.79.217</ipaddr>
         <hostname>shellyplug-s-F17EA6</hostname>
@@ -499,65 +555,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>54:bd:79:8d:0a:5b</mac>
-        <ipaddr>192.168.79.201</ipaddr>
-        <hostname>samsung</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
-        <mac>00:04:20:fd:0d:f1</mac>
-        <ipaddr>192.168.79.202</ipaddr>
-        <hostname>HarmonyHub</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
-        <mac>28:f3:66:66:90:82</mac>
-        <ipaddr>192.168.79.203</ipaddr>
-        <hostname>IPCamera</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
-        <mac>b8:27:eb:5c:30:dc</mac>
-        <ipaddr>192.168.79.204</ipaddr>
-        <hostname>octopi</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
-        <mac>dc:a6:32:14:91:fa</mac>
-        <ipaddr>192.168.79.205</ipaddr>
-        <hostname>mini</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
-        <mac>28:39:5e:dc:41:f3</mac>
-        <ipaddr>192.168.79.206</ipaddr>
-        <hostname>Samsung-Wlan</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
-        <mac>34:64:a9:b7:02:00</mac>
-        <ipaddr>192.168.79.208</ipaddr>
-        <hostname>sw-keller</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
-        <mac>b4:e3:f9:d9:b0:c7</mac>
-        <ipaddr>192.168.79.216</ipaddr>
-        <hostname>shellytrv-B4E3F9D9B0C7</hostname>
+        <mac>8c:f6:81:b7:06:a0</mac>
+        <ipaddr>192.168.79.218</ipaddr>
+        <hostname>shellytrv-8CF681B706A0</hostname>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -766,8 +766,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.42</username>
-    <time>1735716281.9564</time>
-    <description>Restored sections (dhcpd) of config file</description>
+    <time>1735716329.6574</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
