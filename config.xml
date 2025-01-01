@@ -385,22 +385,6 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>8e:b1:3e:b6:9a:cc</mac>
-        <ipaddr>192.168.79.43</ipaddr>
-        <hostname>visualStudio</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
-        <mac>2a:f3:44:bc:41:1f</mac>
-        <ipaddr>192.168.79.45</ipaddr>
-        <hostname>tsd</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
         <mac>00:60:2f:1f:68:9a</mac>
         <ipaddr>192.168.79.80</ipaddr>
         <hostname>homeassistant</hostname>
@@ -451,16 +435,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>d8:3a:dd:d5:c2:fe</mac>
-        <ipaddr>192.168.79.109</ipaddr>
-        <hostname>ottisminecraft</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
         <mac>3c:61:05:de:0d:fd</mac>
-        <ipaddr>192.168.79.130</ipaddr>
+        <ipaddr>192.168.79.209</ipaddr>
         <hostname>shellyplug-s-DE0DFD</hostname>
         <winsserver/>
         <dnsserver/>
@@ -468,7 +444,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       </staticmap>
       <staticmap>
         <mac>e8:68:e7:6e:8f:e6</mac>
-        <ipaddr>192.168.79.131</ipaddr>
+        <ipaddr>192.168.79.210</ipaddr>
         <hostname>shellyplug-s-6E8FE6</hostname>
         <winsserver/>
         <dnsserver/>
@@ -476,7 +452,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       </staticmap>
       <staticmap>
         <mac>48:55:19:d9:1e:5c</mac>
-        <ipaddr>192.168.79.142</ipaddr>
+        <ipaddr>192.168.79.211</ipaddr>
         <hostname>shellydimmer2-485519D91E5C</hostname>
         <winsserver/>
         <dnsserver/>
@@ -484,7 +460,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       </staticmap>
       <staticmap>
         <mac>e8:6b:ea:e5:dd:90</mac>
-        <ipaddr>192.168.79.143</ipaddr>
+        <ipaddr>192.168.79.212</ipaddr>
         <hostname>shellyplus2pm-e86beae5dd90</hostname>
         <winsserver/>
         <dnsserver/>
@@ -492,7 +468,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       </staticmap>
       <staticmap>
         <mac>c0:49:ef:89:80:d0</mac>
-        <ipaddr>192.168.79.151</ipaddr>
+        <ipaddr>192.168.79.213</ipaddr>
         <hostname>shellyplusi4-c049ef8980d0</hostname>
         <winsserver/>
         <dnsserver/>
@@ -500,7 +476,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       </staticmap>
       <staticmap>
         <mac>90:38:0c:35:de:e4</mac>
-        <ipaddr>192.168.79.158</ipaddr>
+        <ipaddr>192.168.79.214</ipaddr>
         <hostname>shellyplusi4-90380c35dee4</hostname>
         <winsserver/>
         <dnsserver/>
@@ -508,7 +484,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       </staticmap>
       <staticmap>
         <mac>e8:68:e7:ed:c7:78</mac>
-        <ipaddr>192.168.79.159</ipaddr>
+        <ipaddr>192.168.79.215</ipaddr>
         <hostname>shellyplug-s-EDC778</hostname>
         <winsserver/>
         <dnsserver/>
@@ -516,7 +492,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       </staticmap>
       <staticmap>
         <mac>e8:68:e7:f1:7e:a6</mac>
-        <ipaddr>192.168.79.160</ipaddr>
+        <ipaddr>192.168.79.217</ipaddr>
         <hostname>shellyplug-s-F17EA6</hostname>
         <winsserver/>
         <dnsserver/>
@@ -790,8 +766,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.42</username>
-    <time>1735715935.7578</time>
-    <description>/services_dhcp.php made changes</description>
+    <time>1735716281.9564</time>
+    <description>Restored sections (dhcpd) of config file</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
