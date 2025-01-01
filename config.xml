@@ -579,14 +579,6 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>3c:a3:08:02:11:16</mac>
-        <ipaddr>192.168.79.215</ipaddr>
-        <hostname>RX9Marvin</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
         <mac>b4:e3:f9:d9:b0:c7</mac>
         <ipaddr>192.168.79.216</ipaddr>
         <hostname>shellytrv-B4E3F9D9B0C7</hostname>
@@ -798,7 +790,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.42</username>
-    <time>1735715902.8628</time>
+    <time>1735715935.7578</time>
     <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
