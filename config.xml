@@ -562,6 +562,15 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
+      <staticmap>
+        <mac>24:d7:eb:e5:5f:af</mac>
+        <ipaddr>192.168.79.219</ipaddr>
+        <hostname>shellydimmer2-24D7EBE55FAF</hostname>
+        <descr>WZ Licht</descr>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
       <pool/>
     </lan>
   </dhcpd>
@@ -765,8 +774,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.79.42</username>
-    <time>1735716329.6574</time>
+    <username>root@192.168.79.97</username>
+    <time>1735940536.9246</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
