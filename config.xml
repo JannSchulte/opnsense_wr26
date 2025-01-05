@@ -675,31 +675,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     </rule>
   </nat>
   <filter>
-    <rule>
-      <type>pass</type>
-      <ipprotocol>inet</ipprotocol>
-      <descr>Default allow LAN to any rule</descr>
-      <interface>lan</interface>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any/>
-      </destination>
-    </rule>
-    <rule>
-      <type>pass</type>
-      <ipprotocol>inet6</ipprotocol>
-      <descr>Default allow LAN IPv6 to any rule</descr>
-      <interface>lan</interface>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any/>
-      </destination>
-    </rule>
-    <rule>
+    <rule uuid="e28ceffc-3d5a-440d-ae33-1589209ab839">
       <associated-rule-id>nat_6734bdccce5c95.71899363</associated-rule-id>
       <source>
         <any>1</any>
@@ -720,7 +696,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
+    <rule uuid="43ef232e-7b25-40d4-a874-2331ac4ba56a">
       <associated-rule-id>nat_6734bdfb20ea93.53800831</associated-rule-id>
       <source>
         <any>1</any>
@@ -741,7 +717,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
+    <rule uuid="2bdd0e41-96eb-4ae9-89f9-a2392f34bb91">
       <associated-rule-id>nat_6734beb52a1885.02711902</associated-rule-id>
       <source>
         <address>jsvs_de</address>
@@ -762,6 +738,55 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="9fd2843a-4759-463a-8bdc-e7e2693b6108">
+      <type>pass</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>icmp</protocol>
+      <source>
+        <address>jsvs_de</address>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.79.147</username>
+        <time>1736111918.385</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.79.147</username>
+        <time>1736111918.385</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="b054eea0-7e75-4e3e-b1f4-9346dab61d25">
+      <type>pass</type>
+      <ipprotocol>inet</ipprotocol>
+      <descr>Default allow LAN to any rule</descr>
+      <interface>lan</interface>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <any/>
+      </destination>
+    </rule>
+    <rule uuid="eab8a7fb-1b25-42b4-9059-ae9aa30b23c3">
+      <type>pass</type>
+      <ipprotocol>inet6</ipprotocol>
+      <descr>Default allow LAN IPv6 to any rule</descr>
+      <interface>lan</interface>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <any/>
+      </destination>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -774,9 +799,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.79.97</username>
-    <time>1735940536.9246</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>root@192.168.79.147</username>
+    <time>1736111918.4603</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
