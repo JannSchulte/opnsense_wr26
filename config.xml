@@ -810,8 +810,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <time>1738766966.6339</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <description>/api/unbound/settings/addHostOverride/ made changes</description>
+    <time>1738767010.0951</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1519,6 +1519,16 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
           <mx/>
           <server>192.168.79.70</server>
           <description/>
+        </host>
+        <host uuid="f59d502e-3a5a-4bd6-985a-ecdeb16aaa4e">
+          <enabled>1</enabled>
+          <hostname>t14-dock-mb</hostname>
+          <domain>jsbe.de</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>192.168.79.95</server>
+          <description>dummy for rdp profiles</description>
         </host>
       </hosts>
       <aliases/>
