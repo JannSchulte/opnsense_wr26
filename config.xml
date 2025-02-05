@@ -397,6 +397,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <cid>T14</cid>
         <ipaddr>192.168.79.95</ipaddr>
         <hostname>T14</hostname>
+        <descr>docking station lan</descr>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -809,7 +810,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <time>1738766955.2852</time>
+    <time>1738766966.6339</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
