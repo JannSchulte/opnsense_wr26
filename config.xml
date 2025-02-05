@@ -393,6 +393,15 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>04:7b:cb:5f:02:7b</mac>
+        <cid>T14</cid>
+        <ipaddr>192.168.79.95</ipaddr>
+        <hostname>T14</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>74:5d:22:f7:ac:2d</mac>
         <ipaddr>192.168.79.96</ipaddr>
         <hostname>T14</hostname>
@@ -799,9 +808,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.79.42</username>
-    <description>/api/wol/wol/addHost/ made changes</description>
-    <time>1737026791.4217</time>
+    <username>root@192.168.79.99</username>
+    <time>1738766955.2852</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
