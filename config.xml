@@ -810,8 +810,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <description>/api/unbound/settings/addHostOverride/ made changes</description>
-    <time>1738767020.2966</time>
+    <description>/api/wol/wol/addHost/ made changes</description>
+    <time>1739337703.5629</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1692,6 +1692,11 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       <interface>lan</interface>
       <mac>04:7c:16:f1:6f:ba</mac>
       <descr>X42</descr>
+    </wolentry>
+    <wolentry uuid="0297fd59-66cc-4399-8ee2-091d27d84533">
+      <interface>lan</interface>
+      <mac>04:7b:cb:5f:02:7b</mac>
+      <descr>t14-dock-lan</descr>
     </wolentry>
   </wol>
   <dnsupdates>
