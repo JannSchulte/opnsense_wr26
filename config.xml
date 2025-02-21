@@ -213,6 +213,7 @@
       <expires/>
       <authorizedkeys>c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCQVFEU1EzRnRIYURlajlPZy9sM2xrbklpWDZ0UXV5c0NvbjJCd2pCQ010VFhDVDZSNWNuNUJSOThUSHFjSjdLaU9EOURuaXRrNmYrNjRrckYyZ0Y0aVRnTWtjZStUaHl2bTdTL0EyaW9xbDRST3VJTHJSUERwOXRGcC9yK2dOOEZmUEF5VHhENXRLbEhkd1c2bG8rR2QxUVFYQUc3Ly9GRVhyTG52N21YRHBIdGdsOWIwRk1OTEVCdTlLZUtsV3BFaDNOOEJSbjIvb2Y0eUZsZmhhT2twSUh3NHZBU1IxanA1dGZWdVo2Y2FkMFgxMUhibjBBVytCamF5RzU4d2dRTlNGZW94YXlzc3BrcnVlMkw1RXhVZmVRMm9IRnFKa2xNRDNMVHJIS0EzSXVCT1BML044RE9zSmQzU2E0Nm9GVW1nY01wUk9ma0pickVFRm0yRDl1dC9oc1g=</authorizedkeys>
       <otp_seed/>
+      <dashboard>eyJvcHRpb25zIjpbXSwid2lkZ2V0cyI6W3siaWQiOiJzeXN0ZW1pbmZvcm1hdGlvbiIsIm1pblciOjIsIngiOjAsInkiOjAsImgiOjUzNCwid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6IndvbCIsIm1pblciOjIsInNpemVUb0NvbnRlbnQiOjY1MCwieCI6MiwieSI6MCwiaCI6NDE4LCJ3aWRnZXQiOltdLCJ3IjoyfSx7ImlkIjoiaW50ZXJmYWNlc3RhdGlzdGljcyIsIm1pblciOjIsIngiOjQsInkiOjAsInciOjQsImgiOjMxMiwid2lkZ2V0IjpbXX0seyJpZCI6ImZpcmV3YWxsIiwibWluVyI6MiwieCI6OCwieSI6MCwidyI6NCwiaCI6MzEyLCJ3aWRnZXQiOltdfSx7ImlkIjoic2VydmljZXMiLCJtaW5XIjoyLCJ4Ijo0LCJ5IjozMTIsInciOjQsInNpemVUb0NvbnRlbnQiOjY1MCwiaCI6NjUwLCJ3aWRnZXQiOltdfSx7ImlkIjoidHJhZmZpYyIsIm1pblciOjIsIngiOjgsInkiOjMxMiwidyI6NCwiaCI6NDUxLCJ3aWRnZXQiOnsiaW50ZXJmYWNlcyI6WyJsYW4iLCJ3YW4iXX19LHsiaWQiOiJtZW1vcnkiLCJtaW5XIjoxLCJ4IjoyLCJ5Ijo0MTgsImgiOjExNywid2lkZ2V0IjpbXSwidyI6bnVsbH0seyJpZCI6ImRpc2siLCJtaW5XIjoxLCJ4IjozLCJ5Ijo0MTgsImgiOjExNywid2lkZ2V0IjpbXSwidyI6bnVsbH0seyJpZCI6ImNwdSIsIm1pblciOjIsIngiOjAsInkiOjUzNCwiaCI6MTg2LCJ3aWRnZXQiOnsiZ3JhcGhzIjpbInRvdGFsIl19LCJ3IjoyfSx7ImlkIjoiZ2F0ZXdheXMiLCJtaW5XIjoyLCJ4IjoyLCJ5Ijo1MzUsInNpemVUb0NvbnRlbnQiOjY1MCwiaCI6MjM0LCJ3aWRnZXQiOnsiZ2F0ZXdheXMiOlsiV0FOX0dXIl19LCJ3IjoyfSx7ImlkIjoiYW5ub3VuY2VtZW50cyIsIm1pblciOjIsIngiOjIsInkiOjc2OSwic2l6ZVRvQ29udGVudCI6MzUwLCJoIjozNTAsIndpZGdldCI6W10sInciOjJ9XX0=</dashboard>
     </user>
     <nextuid>2000</nextuid>
     <nextgid>2000</nextgid>
@@ -809,9 +810,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.79.99</username>
-    <description>/api/wol/wol/addHost/ made changes</description>
-    <time>1739337703.5629</time>
+    <username>root@192.168.79.97</username>
+    <description>/api/core/dashboard/saveWidgets made changes</description>
+    <time>1740170153.7566</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
