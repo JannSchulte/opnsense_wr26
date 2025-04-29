@@ -311,6 +311,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       <media/>
       <mediaopt/>
       <dhcp6-ia-pd-len>0</dhcp6-ia-pd-len>
+      <descr>WAN</descr>
     </wan>
     <lan>
       <enable>1</enable>
@@ -323,6 +324,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       <mediaopt/>
       <gateway/>
       <gatewayv6/>
+      <descr>LAN</descr>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -811,8 +813,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.97</username>
-    <description>/api/core/dashboard/saveWidgets made changes</description>
-    <time>1740170153.7566</time>
+    <time>1745958262.1714</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
