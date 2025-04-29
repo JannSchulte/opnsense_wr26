@@ -338,6 +338,10 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       <type>none</type>
       <virtual>1</virtual>
     </lo0>
+    <opt1>
+      <descr>vlan690</descr>
+      <if>vtnet0_vlan690</if>
+    </opt1>
   </interfaces>
   <dhcpd>
     <lan>
@@ -813,7 +817,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.97</username>
-    <time>1745958262.1714</time>
+    <time>1745958275.0029</time>
     <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
