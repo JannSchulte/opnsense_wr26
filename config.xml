@@ -306,18 +306,14 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </system>
   <interfaces>
     <wan>
-      <enable>1</enable>
       <if>pppoe0</if>
-      <mtu>1492</mtu>
-      <ipaddr>pppoe</ipaddr>
-      <ipaddrv6>dhcp6</ipaddrv6>
-      <gateway>WAN_GW</gateway>
+      <descr>WAN</descr>
+      <enable>1</enable>
+      <spoofmac/>
       <blockpriv>1</blockpriv>
       <blockbogons>1</blockbogons>
-      <media/>
-      <mediaopt/>
-      <dhcp6-ia-pd-len>0</dhcp6-ia-pd-len>
-      <descr>WAN</descr>
+      <mtu>1492</mtu>
+      <ipaddr>pppoe</ipaddr>
     </wan>
     <lan>
       <enable>1</enable>
@@ -844,8 +840,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <description>/system_advanced_network.php made changes</description>
-    <time>1747943464.4192</time>
+    <description>/interfaces.php made changes</description>
+    <time>1747943482.1591</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
