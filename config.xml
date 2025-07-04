@@ -840,8 +840,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1751641219.3053</time>
+    <description>/interfaces_ppps_edit.php made changes</description>
+    <time>1751641376.2518</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1754,9 +1754,14 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       <ptpid>0</ptpid>
       <type>pppoe</type>
       <if>pppoe0</if>
-      <ports>vtnet0_vlan690</ports>
+      <ports>lan</ports>
       <username>vodafone-vdsl.komplett/vb2939244839</username>
       <password>aGFyd3NjYnM=</password>
+      <provider/>
+      <bandwidth/>
+      <mtu/>
+      <mru/>
+      <mrru/>
     </ppp>
   </ppps>
   <wireless>
