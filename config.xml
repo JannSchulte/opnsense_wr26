@@ -815,8 +815,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1751641969.4522</time>
+    <description>/api/interfaces/vlan_settings/delItem/3d9b057d-178b-412a-beb7-0699c575a705 made changes</description>
+    <time>1751641994.7329</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1710,12 +1710,10 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <vlan uuid="eecd3058-b167-4f74-ab94-e796c5cd5e19">
       <if>vtnet0</if>
       <tag>600</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr/>
       <vlanif>vtnet0_vlan600</vlanif>
-    </vlan>
-    <vlan uuid="3d9b057d-178b-412a-beb7-0699c575a705">
-      <if>vtnet0</if>
-      <tag>690</tag>
-      <vlanif>vtnet0_vlan690</vlanif>
     </vlan>
   </vlans>
   <staticroutes version="1.0.0">
