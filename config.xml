@@ -815,8 +815,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <description>/api/interfaces/vlan_settings/delItem/eecd3058-b167-4f74-ab94-e796c5cd5e19 made changes</description>
-    <time>1751641994.7933</time>
+    <description>/api/routing/settings/delGateway/b74e1846-8494-4930-91eb-2e55c055f41e made changes</description>
+    <time>1751642005.6172</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1299,33 +1299,11 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <fargw>0</fargw>
         <monitor_disable>0</monitor_disable>
         <monitor_noroute>0</monitor_noroute>
+        <monitor_killstates>0</monitor_killstates>
+        <monitor_killstates_priority>0</monitor_killstates_priority>
         <monitor>8.8.8.8</monitor>
         <force_down>0</force_down>
         <priority>255</priority>
-        <weight>1</weight>
-        <latencylow/>
-        <latencyhigh/>
-        <losslow/>
-        <losshigh/>
-        <interval/>
-        <time_period/>
-        <loss_interval/>
-        <data_length/>
-      </gateway_item>
-      <gateway_item uuid="b74e1846-8494-4930-91eb-2e55c055f41e">
-        <disabled>1</disabled>
-        <name>WAN_DHCP6</name>
-        <descr>Interface WAN_DHCP6 Gateway</descr>
-        <interface>wan</interface>
-        <ipprotocol>inet6</ipprotocol>
-        <gateway/>
-        <defaultgw>0</defaultgw>
-        <fargw>0</fargw>
-        <monitor_disable>1</monitor_disable>
-        <monitor_noroute>0</monitor_noroute>
-        <monitor/>
-        <force_down>0</force_down>
-        <priority>254</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
