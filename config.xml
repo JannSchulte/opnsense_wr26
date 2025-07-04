@@ -317,7 +317,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     </wan>
     <lan>
       <enable>1</enable>
-      <if>vtnet0_vlan600</if>
+      <if>vtnet0</if>
       <ipaddr>192.168.79.254</ipaddr>
       <subnet>24</subnet>
       <ipaddrv6/>
@@ -839,9 +839,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1748035214.7273</time>
+    <username>root@192.168.79.99</username>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1751641219.3053</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1728,7 +1728,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   <laggs version="1.0.0">
     <lagg/>
   </laggs>
-  <virtualip version="1.0.1"/>
+  <virtualip version="1.0.1">
+    <vip/>
+  </virtualip>
   <vlans version="1.0.0">
     <vlan uuid="eecd3058-b167-4f74-ab94-e796c5cd5e19">
       <if>vtnet0</if>
