@@ -340,31 +340,6 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       <type>none</type>
       <virtual>1</virtual>
     </lo0>
-    <opt1>
-      <if>vtnet0_vlan690</if>
-      <descr>vlan690</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>dhcp</ipaddr>
-      <dhcphostname/>
-      <alias-address/>
-      <alias-subnet>32</alias-subnet>
-      <dhcprejectfrom/>
-      <adv_dhcp_pt_timeout/>
-      <adv_dhcp_pt_retry/>
-      <adv_dhcp_pt_select_timeout/>
-      <adv_dhcp_pt_reboot/>
-      <adv_dhcp_pt_backoff_cutoff/>
-      <adv_dhcp_pt_initial_interval/>
-      <adv_dhcp_pt_values>SavedCfg</adv_dhcp_pt_values>
-      <adv_dhcp_send_options/>
-      <adv_dhcp_request_options/>
-      <adv_dhcp_required_options/>
-      <adv_dhcp_option_modifiers/>
-      <adv_dhcp_config_advanced/>
-      <adv_dhcp_config_file_override/>
-      <adv_dhcp_config_file_override_path/>
-    </opt1>
   </interfaces>
   <dhcpd>
     <lan>
@@ -840,8 +815,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <description>/interfaces_ppps_edit.php made changes</description>
-    <time>1751641376.2518</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1751641969.4522</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
