@@ -814,9 +814,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.79.99</username>
-    <description>/api/routing/settings/delGateway/b74e1846-8494-4930-91eb-2e55c055f41e made changes</description>
-    <time>1751642005.6172</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1751832685.0931</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1688,9 +1688,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   <staticroutes version="1.0.0">
     <route/>
   </staticroutes>
-  <bridges>
-    <bridged/>
-  </bridges>
+  <bridges version="1.0.0"/>
   <ppps>
     <ppp>
       <ptpid>0</ptpid>
@@ -1743,7 +1741,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <dnsupdate/>
   </dnsupdates>
   <syslog/>
-  <dnsmasq version="1.0.5">
+  <dnsmasq version="1.0.7">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -1751,6 +1749,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <strict_order>0</strict_order>
     <domain_needed>0</domain_needed>
     <no_private_reverse>0</no_private_reverse>
+    <no_resolv>0</no_resolv>
     <log_queries>0</log_queries>
     <no_hosts>0</no_hosts>
     <strictbind>0</strictbind>
