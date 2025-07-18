@@ -815,8 +815,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <description>/api/unbound/settings/addHostOverride/ made changes</description>
-    <time>1752842409.9749</time>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1752843791.8312</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -944,11 +944,15 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
             <enabled>1</enabled>
             <name>x42</name>
             <type>host</type>
+            <path_expression/>
             <proto/>
             <interface/>
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.79.99</content>
+            <password/>
+            <username/>
+            <authtype/>
             <categories/>
             <description/>
           </alias>
@@ -956,11 +960,15 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
             <enabled>1</enabled>
             <name>work</name>
             <type>host</type>
+            <path_expression/>
             <proto/>
             <interface/>
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.79.42</content>
+            <password/>
+            <username/>
+            <authtype/>
             <categories/>
             <description/>
           </alias>
@@ -968,11 +976,15 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
             <enabled>1</enabled>
             <name>prox6000</name>
             <type>host</type>
+            <path_expression/>
             <proto/>
             <interface/>
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.79.10</content>
+            <password/>
+            <username/>
+            <authtype/>
             <categories/>
             <description/>
           </alias>
@@ -980,11 +992,31 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
             <enabled>1</enabled>
             <name>jsvs_de</name>
             <type>host</type>
+            <path_expression/>
             <proto/>
             <interface/>
             <counters>0</counters>
             <updatefreq/>
             <content>94.16.107.238</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="6ab3da09-cc63-4acf-9485-d11f3ae980f5">
+            <enabled>1</enabled>
+            <name>proxy</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.79.90</content>
+            <password/>
+            <username/>
+            <authtype/>
             <categories/>
             <description/>
           </alias>
