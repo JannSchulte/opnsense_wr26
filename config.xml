@@ -816,7 +816,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   <revision>
     <username>root@192.168.79.99</username>
     <description>/api/firewall/alias/addItem/ made changes</description>
-    <time>1752843791.8312</time>
+    <time>1752843807.4004</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1014,6 +1014,23 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.79.90</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="72a9086b-8955-41ab-968e-46ca4504d6a2">
+            <enabled>1</enabled>
+            <name>http_s</name>
+            <type>port</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>80
+443</content>
             <password/>
             <username/>
             <authtype/>
