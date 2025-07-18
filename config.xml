@@ -815,8 +815,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.99</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1752335680.9655</time>
+    <description>/api/unbound/settings/addHostOverride/ made changes</description>
+    <time>1752841307.3929</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1584,6 +1584,17 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
           <ttl/>
           <server>192.168.79.95</server>
           <description>dummy for rdp profiles</description>
+        </host>
+        <host uuid="5ceadda4-f24b-473b-8bc6-d1f5c45c5154">
+          <enabled>1</enabled>
+          <hostname>ppl</hostname>
+          <domain>jsbe.de</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>192.168.79.85</server>
+          <description>paperless</description>
         </host>
       </hosts>
       <aliases/>
