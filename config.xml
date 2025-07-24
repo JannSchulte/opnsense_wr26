@@ -823,6 +823,55 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="44230dec-9414-490a-a196-611cfa2279fd">
+      <type>pass</type>
+      <associated-rule-id>nat_687a46654741b0.00510449</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>proxy</address>
+        <port>http_s</port>
+      </destination>
+      <descr>nginx</descr>
+      <category/>
+      <created>
+        <username>root@192.168.79.99</username>
+        <time>1752843877.2919</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="a43543bb-e5f2-4df6-bdfd-7a4eba40c4cf">
+      <type>pass</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>wg-jsbe</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>udp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+        <port>51820</port>
+      </destination>
+      <updated>
+        <username>root@192.168.79.42</username>
+        <time>1753335848.4347</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.79.42</username>
+        <time>1753335848.4347</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="b054eea0-7e75-4e3e-b1f4-9346dab61d25">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
@@ -847,28 +896,6 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <any/>
       </destination>
     </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_687a46654741b0.00510449</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>proxy</address>
-        <port>http_s</port>
-      </destination>
-      <descr>nginx</descr>
-      <category/>
-      <created>
-        <username>root@192.168.79.99</username>
-        <time>1752843877.2919</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -881,9 +908,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <description>Updated plugin interface configuration</description>
-    <time>1753335727.0482</time>
+    <username>root@192.168.79.42</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1753335848.5133</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
