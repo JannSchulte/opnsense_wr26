@@ -866,9 +866,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.79.99</username>
-    <description>/api/unbound/settings/addHostOverride/ made changes</description>
-    <time>1752844899.6915</time>
+    <username>root@192.168.79.42</username>
+    <description>/api/wireguard/server/addServer/ made changes</description>
+    <time>1753335578.8469</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -880,7 +880,25 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <enabled>0</enabled>
       </general>
       <server version="1.0.0">
-        <servers/>
+        <servers>
+          <server uuid="697b65b3-26e3-44d6-9004-e579ea261bff">
+            <enabled>1</enabled>
+            <name>jsbe</name>
+            <instance>0</instance>
+            <pubkey>ho8OWbFJEdLjrFmV0TXtuipFCrzwZ/gzIVOHVE5hk3Y=</pubkey>
+            <privkey>WNYb+HS5l4AUNKsZt5fGJXh3/UGVBkpEGQgZegHiL3I=</privkey>
+            <port/>
+            <mtu/>
+            <dns/>
+            <tunneladdress>10.99.0.1/24</tunneladdress>
+            <disableroutes>0</disableroutes>
+            <gateway/>
+            <carp_depend_on/>
+            <peers/>
+            <endpoint/>
+            <peer_dns/>
+          </server>
+        </servers>
       </server>
     </wireguard>
     <IPsec version="1.0.4">
