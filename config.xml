@@ -341,8 +341,10 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       <virtual>1</virtual>
     </lo0>
     <opt1>
-      <descr>wgjsbe</descr>
       <if>wg0</if>
+      <descr>wgjsbe</descr>
+      <enable>1</enable>
+      <spoofmac/>
     </opt1>
   </interfaces>
   <dhcpd>
@@ -871,8 +873,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.42</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1753335636.7674</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753335650.4258</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
