@@ -340,6 +340,10 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
       <type>none</type>
       <virtual>1</virtual>
     </lo0>
+    <opt1>
+      <descr>wgjsbe</descr>
+      <if>wg0</if>
+    </opt1>
   </interfaces>
   <dhcpd>
     <lan>
@@ -867,8 +871,8 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   </widgets>
   <revision>
     <username>root@192.168.79.42</username>
-    <description>/api/wireguard/server/addServer/ made changes</description>
-    <time>1753335578.8469</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1753335596.3364</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1836,11 +1840,15 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   <virtualip version="1.0.1">
     <vip/>
   </virtualip>
-  <vlans version="1.0.0"/>
+  <vlans version="1.0.0">
+    <vlan/>
+  </vlans>
   <staticroutes version="1.0.0">
     <route/>
   </staticroutes>
-  <bridges version="1.0.0"/>
+  <bridges version="1.0.0">
+    <bridged/>
+  </bridges>
   <ppps>
     <ppp>
       <ptpid>0</ptpid>
