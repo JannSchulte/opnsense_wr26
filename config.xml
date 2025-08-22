@@ -505,7 +505,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>80:2a:a8:f2:5e:da</mac>
+        <mac>80:2a:a8:f3:5e:da</mac>
         <ipaddr>192.168.79.207</ipaddr>
         <hostname>NSWRKT</hostname>
         <descr>Richtfunk zum Kirchturm</descr>
@@ -919,7 +919,7 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
   <revision>
     <username>root@192.168.79.99</username>
     <description>/services_dhcp_edit.php made changes</description>
-    <time>1755853199.6</time>
+    <time>1755859110.8909</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
