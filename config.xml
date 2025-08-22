@@ -505,6 +505,15 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>80:2a:a8:f2:5e:da</mac>
+        <ipaddr>192.168.79.207</ipaddr>
+        <hostname>NSWRKT</hostname>
+        <descr>Richtfunk zum Kirchturm</descr>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>34:64:a9:b7:02:00</mac>
         <ipaddr>192.168.79.208</ipaddr>
         <hostname>sw-keller</hostname>
@@ -908,9 +917,9 @@ XYzvbLqn0FHN1XSJNRpoAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.79.42</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1753335848.5133</time>
+    <username>root@192.168.79.99</username>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1755853199.6</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
